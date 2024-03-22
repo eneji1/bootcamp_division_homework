@@ -5,7 +5,12 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    grades = int(input('점수를 입력해주세요'))
+    if grades>=90: print('A')
+    elif grades>=80: print('B')
+    elif grades>=70: print('C')
+    elif grades>=60: print('D')
+    else: print('F')
     return
 
 

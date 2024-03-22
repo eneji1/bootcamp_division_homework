@@ -5,6 +5,16 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    while True:
+        num= input()
+        num=int(num)
+        if num>0: 
+            sumn=sum(range(1,num+1))
+            print(sumn)
+            break
+        else: print('X')
+
+    
 
     return
 

@@ -5,7 +5,17 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    
+    num=int(input('정수를 입력해주세요 :'))
+    if num>12: print('12이하의 정수를 입력해주세요. ')
+    else:
+        sum=0
+        rhq=1
+        for a in range(1,num+1):
+            sum=sum+a
+            rhq=rhq*a
+        print(sum)
+        print(rhq)
     return
 
 

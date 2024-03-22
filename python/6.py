@@ -5,7 +5,10 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    A = input('알파벳 문자 하나를 입력하세요 :')
+    if A == 'a'or A=='e'or A=='i'or A=='o'or A=='u': print('O')
+    else: print('X')
+    
     return
 
 
