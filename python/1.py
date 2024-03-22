@@ -9,8 +9,7 @@ def main():
     num = int(num)
     for i in range(3):
         print(num%10, end='')
-        num=num//10
-    return
+        num = num // 10
 
 
 if __name__ == '__main__':
