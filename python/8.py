@@ -6,7 +6,7 @@
 def main():
     # 이곳에 코드를 작성해주세요!
     
-    num=int(input('정수를 입력해주세요 :'))
+    num=int(input())
     if num>12: print('12이하의 정수를 입력해주세요. ')
     else:
         sum=0
