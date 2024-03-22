@@ -6,8 +6,11 @@
 def main():
     # 이곳에 코드를 작성해주세요!
     A = input('알파벳 문자 하나를 입력하세요 :')
-    if A == 'a'or A=='e'or A=='i'or A=='o'or A=='u': print('O')
-    else: print('X')
+    a=['a','e','i','o','u']
+    b=['q','w','r','t','y','p','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m']
+    if A in a: print('O')
+    elif A in b : print('X')
+    else: print('알파벳을 입력해주세요.')
     
     return
 

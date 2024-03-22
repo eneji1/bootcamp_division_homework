@@ -11,9 +11,12 @@ def main():
     else:
         sum=0
         rhq=1
+        i=1
+        while i <=num:
+            sum+=i
+            i+=1
         for a in range(1,num+1):
-            sum=sum+a
-            rhq=rhq*a
+            rhq*=a
         print(sum)
         print(rhq)
     return

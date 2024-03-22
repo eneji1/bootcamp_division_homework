@@ -7,9 +7,7 @@ def main():
     # 이곳에 코드를 작성해주세요!
     num=input('세자리 정수를 입력해주세요.: ')
     num = int(num)
-    for i in range(3):
-        print(num%10, end='')
-        num=num//10
+    print(int(str(num)[::-1]))
     return
 
 
